@@ -1,0 +1,79 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Spray Paint', cursive;
+
+}
+
+
+
+.container {
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
+
+
+
+img {
+    max-width: 100%;
+    min-width: 3rem;
+    height: auto;
+    padding: 5%;
+  
+}
+header {
+    background-color:#119a3a ;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+body {
+    background-color: #f5d5c1   ;
+}
+
+.hero {
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.hero > * {
+    grid-area: stack;
+}
+
+main {
+  
+    padding-top: 1rem;
+    padding: 2%;
+   
+    background-color:#119a3a ;
+    
+
+
+}
+
+.hero > h1 {
+    place-self: center;
+    font-size: 4rem;
+    color: rgb(135, 201, 216);
+    outline: auto;
+    outline-style: groove;
+    outline-color: rgb(17, 49, 49);
+    outline-width: 0.1ch;    
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
